@@ -1,0 +1,19 @@
+.header{
+    background-image: linear-gradient(to right, #1890ff, #001529);
+}
+
+.main-heading{
+    color: #EEEEEE;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0;
+    padding: 10px 25px;
+}
+
+.main-heading-wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+

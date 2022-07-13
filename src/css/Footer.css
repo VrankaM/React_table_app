@@ -1,0 +1,34 @@
+.footer{
+    color: #EEEEEE;
+    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 1300px;
+    text-align: center;
+}
+
+.footer-container{
+    background-image: linear-gradient(to right, #1890ff, #001529);
+    padding: 50px 10px;
+    width: 100%;
+}
+
+.footer-column{
+    border: 1px solid #EEEEEE;
+    border-radius: 15px;
+    height: 100%;
+    padding: 20px;
+}
+
+.footer-icon{
+    font-size: 30px;
+    margin: 10px 0 25px;
+}
+
+.footer-text{
+    font-size: 1.3rem;
+    margin: 20px 0 0;
+}
+
+.footer-heading{
+    color: #EEEEEE !important;
+}

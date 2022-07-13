@@ -1,0 +1,9 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.navlink{
+    font-size: 1.2rem;
+}

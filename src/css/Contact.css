@@ -1,0 +1,26 @@
+.form-container{
+    /* min-height: calc(80vh - 100px); */
+    padding: 50px 0;
+}
+
+.form-wrapper{
+    margin: 50px auto;
+    max-width: 800px;
+    padding: 15px 30px;
+    width: 100vw;
+}
+
+.submit-button{
+    border-radius: 10px !important;
+    font-size: 1.3rem !important;
+    padding: 5px 15px !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+.button-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.data-container{
+    margin: 50px auto;
+    max-width: 1300px;
+}
+.table{
+    margin: 10px;
+}
+
+.input{
+    display: inline-flex !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.deleted-data{
+    font-size: 1.2rem;
+    list-style: decimal ;
+}
+.deleted-data li{
+    margin: 5px;
+}
+.deleted-data-wrapper{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+input{
+    width: 100px;
+}

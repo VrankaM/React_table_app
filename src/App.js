@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from "./pages/Home"
+import Data from "./pages/Data"
+import Contact from "./pages/Contact"
+import SharedLayout from "./components/SharedLayout"
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import "antd/dist/antd.min.css"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+  return(
+    <Router>
+      <Routes>
+        <Route path="/" element={ <SharedLayout />} >
+          <Route index element={ <Home />} />
+          <Route path="/data" element={ <Data /> } />
+          <Route path="/contact" element={ <Contact /> } />
+        </Route>
+      </Routes>
+    </Router>
+  )
 }
 
-export default App;
+export default App
