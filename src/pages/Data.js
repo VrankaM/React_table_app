@@ -214,9 +214,15 @@ const Data = () => {
 
     //delete data on double click
     function deleteData(record){
-        let array = JSON.parse(localStorage.getItem("deletedData"))
-        array.push(record)
-        localStorage.setItem("deletedData", JSON.stringify(array))
+        if(localStorage.getItem("deletedData") === null){
+            let array = []
+            array.push(record)
+            localStorage.setItem("deletedData", JSON.stringify(array))
+        }else{
+            let array = JSON.parse(localStorage.getItem("deletedData"))
+            array.push(record)
+            localStorage.setItem("deletedData", JSON.stringify(array))
+        }
         
         setData(
             tableData.filter( (item) => {
